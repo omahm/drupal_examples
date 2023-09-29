@@ -1,0 +1,14 @@
+modal_form_example.modal_parent:
+  path: '/modal-form-example/modal-parent'
+  defaults:
+    _title: 'Contact us'
+    _form: 'Drupal\modal_form_example\Form\ModalParentForm'
+  requirements:
+    _permission: 'access content'
+modal_form_example.modal_form:
+  path: '/modal-form-example/modal-form/{field}'
+  defaults:
+    _title: 'Modal'
+    _form: 'Drupal\modal_form_example\Form\ModalForm'
+  requirements:
+    _permission: 'access content'

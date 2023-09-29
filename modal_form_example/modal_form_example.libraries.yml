@@ -1,0 +1,13 @@
+# Custom module library for general purposes.
+modal_form_example:
+  version: 1.x
+  css:
+    theme:
+      css/modal-form-example.css: {}
+  js:
+    js/modal-form-example.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.form
+    - core/drupalSettings
+    - core/drupal.dialog.ajax

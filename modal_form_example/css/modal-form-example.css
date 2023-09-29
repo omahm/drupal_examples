@@ -1,0 +1,56 @@
+
+
+.form-item-office {
+  display: inline-block;
+  margin-right: -80px;
+}
+
+.form-item-office input[type='radio'],
+.form-item-office input[type='radio']:checked {
+  display: inline-block;
+  border-radius: 3px;
+  border: white 2px;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(40%);
+}
+
+.form-item-office input[type='radio']:checked {
+  filter: grayscale(0%);
+}
+
+.form-item-office input[value="Adelaide - Australia"],
+.form-item-office input[value="Adelaide - Australia"]:checked
+{
+  background-image: url("../img/adelaide.jpg");
+}
+
+.form-item-office input[value="Belfast - Northern Ireland"],
+.form-item-office input[value="Belfast - Northern Ireland"]:checked
+{
+  background-image: url("../img/belfast.jpg");
+}
+
+.form-item-office input[value="Chicago - United States"],
+.form-item-office input[value="Chicago - United States"]:checked
+{
+  background-image: url("../img/chicago.jpg");
+}
+
+.form-item-office input[value="Dubai - United Arab Emirates"],
+.form-item-office input[value="Dubai - United Arab Emirates"]:checked
+{
+  background-image: url("../img/dubai.jpg");
+}
+
+.form-item__label.option {
+  position: relative;
+  left: -200px;
+  bottom: -110px;
+  font-size: 3em;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px rgba(101, 101, 101, 1);
+}

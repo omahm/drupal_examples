@@ -1,0 +1,5 @@
+name: Modal Form example
+type: module
+description: Example of a modal form sending data back to the calling form.
+package: OMAHM examples
+core_version_requirement: ^9 || ^10
